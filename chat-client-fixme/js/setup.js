@@ -126,7 +126,13 @@ var postData = function(message, username) {
 
 //-------------- END VARIABLE/FUNCTION DECLARATIONS ---------------------
 
-getData();
+
+///added
+$(function() {
+   setInterval(function() {
+    getData();
+   },2000);
+})
 
 
 
@@ -136,7 +142,13 @@ $(".submit").on('submit',function(event) {
   $('#backButton').toggle();
   $('.title').text('Chat with JSON');
 
+  ////added
+  getData();
+
   postData($(".userInput").val(), username);
+
+  //delete input
+  $(this).find('input:text').val('');
 });
 
 $(".refresh").on('click',function(event) {

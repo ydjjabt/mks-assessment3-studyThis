@@ -10,8 +10,8 @@
 
 ## Grading Outline
 
-- [ ] backbone-pond-view
-- [ ] chat-client-fixme
+- [ attempted ] backbone-pond-view
+- [ complete ] chat-client-fixme
 
 ## Self-Grading Process
 
@@ -27,7 +27,7 @@ The file `syntaxalyze.html` is included. Open it in your browser and then drag y
 
 Solutions are submitted via [Pull Request](https://help.github.com/articles/using-pull-requests). Follow these steps:
 
-1. From **your fork**, select `Pull Requests` and then create a `New pull request`. 
+1. From **your fork**, select `Pull Requests` and then create a `New pull request`.
 2. STOP. *Before* you `Click to create a pull request for this comparison` you must **adjust the target branch** (aka `base branch`) to be your username. Once chagned, the pull-request heading should look like this:
 
   > makersquare:username ... username:master
